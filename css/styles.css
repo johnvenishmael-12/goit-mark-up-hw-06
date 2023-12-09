@@ -652,7 +652,9 @@ h2 {
 .footer-column {
         /* width: calc(100%/3); */
         display: inline-block;
-        
+        justify-content: center;
+        gap: 24px;
+        margin-right: auto;
 }
 
 .footer-content .logo-web {
@@ -698,6 +700,7 @@ h2 {
         border: 2px solid white;
         background: none;
         border-radius: 4px;
+        margin-right: 24px;
         padding: 10px;
         width: 264px;
         background-color: none;
@@ -716,14 +719,20 @@ h2 {
         padding: 8px 24px;
 
         border-radius: 4px;
+        font-family: roboto;
         color: var(--white);
         font-weight: 500;
         background-color: var(--iris);
         border-radius: 4px;
+        gap: 16px;
 }
 
 .footer-subscribe-svg {
         fill: currentColor;
+}
+
+.footer-form-button:hover {
+        background-color: var(--ocean);
 }
 
 /* PORTFOLIO PAGE */
